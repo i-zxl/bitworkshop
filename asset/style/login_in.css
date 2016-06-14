@@ -1,0 +1,61 @@
+/*导航栏*/
+body{
+	margin:0px;
+	background: rgba(0,0,0,0.6);
+	color:white;
+}
+a:link,a:visited{ text-decoration: none;color: white}
+a:hover{
+	color:red;
+}
+.nav{
+	position: relative;
+	width:100%;
+	height: 65px;
+	background-color: rgba(0,0,0,0.6);
+	-pie-background: rgba(0,0,0,0.6);
+	behavior: url(style/PIE.htc);
+	line-height: 65px;
+}
+.nav img{
+	display: inline-block;
+	padding-left: 4%;
+	padding-top: 15px;
+}
+.nav .admin_login{
+	font-size: 30px;
+	margin-top: -70px;
+	margin-left: 35px;
+	text-align: center;
+}
+.index{
+	float:right;
+	margin-top: -85px;
+	margin-right: 50px;
+}
+.contain_in{
+    margin:0 auto;
+    width:80%;
+    min-height: 400px;
+    text-align: center;
+}
+.contain_in form label{
+  width: 100px;
+  margin-right: 25px;
+}
+.contain_in form input{
+    margin-top:5px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+.btn{
+	margin-top:5px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+.reset{
+	margin: 40px;
+	margin-top:5px;
+	margin-bottom: 20px;
+	margin-right: -50px;
+}
