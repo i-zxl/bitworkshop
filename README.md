@@ -9,6 +9,7 @@
     后台是php写的，用的CI框架
 
 文件分布情况
+    
     |-- application
 
        |-- controllers     //逻辑控制层 
